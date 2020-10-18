@@ -1,0 +1,14 @@
+{
+    "name": "weinre-openshift",
+    "version": "2.0.0-pre-I0Z7U9OV",
+    "dependencies": {
+        "weinre": "2.0.0-pre-I0Z7U9OV"
+    },
+    "engines": {
+        "node": ">= 12.3.0",
+        "npm": ">= 6.9.0"
+    },
+    "scripts": {
+        "start": "weinre --httpPort 8080 --boundHost $OPENSHIFT_INTERNAL_IP"
+    }
+}
